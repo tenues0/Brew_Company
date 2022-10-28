@@ -68,20 +68,12 @@ button:hover {
     color: white;
 }
 
-/* https://pixabay.com/photos/keyboard-black-notebook-input-1385706/ */
 .banner-image {
     position: relative;
     width: 100%;
     height: auto;
     background-size: cover;
     background-position: center;
-}
-
-.banner-me {
-    position: absolute;
-    bottom: 32px;
-    left: 32px;
-    border-radius: 50%;
 }
 
 .banner-text {
