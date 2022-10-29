@@ -86,9 +86,13 @@ button:hover {
     color: black;
 }
 
+.story {
+  border-radius: 50%;
+}
+
 /*
 This part of the CSS sheet marks the start of the written sections.
-ABOUT ME, PROJECTS, CONTACT ME, RESUME
+ABOUT ME, PROJECTS, CONTACT ME
 */
 
 .container {
