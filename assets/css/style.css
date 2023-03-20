@@ -63,7 +63,6 @@ header nav ul li a:hover {
     background-position: center;
 }
 
-/* .banner-text currently not being used */
 .banner-text {
     position: absolute;
     bottom: 16px;
@@ -72,6 +71,7 @@ header nav ul li a:hover {
     background-color: #FAB95B;
     padding: 5px;
     color: #1A3263;
+    border-radius: 15px;
 }
 
 .content-sections {
@@ -84,9 +84,55 @@ header nav ul li a:hover {
 }
 
 footer {
-    padding: 20px;
-    color: black;
-    justify-content: center;
-    text-align:center; 
-    font-size: 30px;
+  padding: 20px;
+  color: black;
+  justify-content: center;
+  text-align:center; 
+  font-size: 30px;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  header h1 {
+    font-size: 32px;
+  }
+
+  .banner-text {
+    font-size: 32px;
+  }
+  footer {
+    font-size: 24px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  header h1 {
+    font-size: 48px;
+  }
+  .banner-text {
+    font-size: 48px;
+  }  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 56px;
+  }
+  .banner-text {
+    font-size: 56px;
+  } 
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
