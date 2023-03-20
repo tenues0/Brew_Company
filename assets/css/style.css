@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #D07000;
+    background-color: #E8E2DB;
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #A62349;
+    background-color: #FAB95B;
     color: white;
 }
 
@@ -19,16 +19,8 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     padding: 5px;
-    color: white;
+    color: #1A3263;
     /* background-color: #D07000; */
-}
-
-header h2 {
-  /* display: inline-block; */
-  font-size: 36px;
-  padding: 5px;
-  color: white;
-  /* background-color: #D07000; */
 }
 
 header nav {
@@ -50,16 +42,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: lightblue;
+  color: #1A3263;
 }
 
 header nav ul li a:hover {
   color: white;
-}
-
-button:hover {
-  color: white;
-  background-color: black;
 }
 
 .banner {
@@ -87,51 +74,14 @@ button:hover {
     color: black;
 }
 
-.story {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
+.content-sections {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #F16821;
+  color: #ffffff;
 }
-
-
-
-
-
-/*  https://css-tricks.com/snippets/css/complete-guide-grid/  */
-
-.container .grid-container {
-    border-left: solid;
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 15px;
-    column-gap: 10px;
-    row-gap: 15px;
-  }
-
-
-
-  .grid-item {
-    position: relative;
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 10px solid rgba(0, 0, 0, 0.8); */
-    font-size: 30px;
-  }
-
-
-  .grid-item img {
-    width: 100%;
-    max-width: 400px;
-  }
-
-  .grid-item img:hover {
-    opacity: .5;
-  }
-
-
-/* CONTACT ME CODE */
-
-
 
 footer {
     padding: 20px;
