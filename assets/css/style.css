@@ -32,6 +32,7 @@ li {
 
 .logo {
   font-size: 32px;
+  padding: 10px;
 }
 
 .menu {
@@ -50,46 +51,6 @@ li {
 .menu li {
   padding: 5px 14px;
 }
-
-/* OLD STYLING */
-/* header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #FAB95B;
-    color: white;
-} */
-
-/* header h1 {
-    display: inline-block;
-    font-size: 48px;
-    padding: 5px;
-    color: #1A3263;
-    background-color: #D07000;
-} */
-
-/* header nav {
-    display: flex;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
-
-/* header nav ul {
-    list-style-type: none;
-} */
-
-/* header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    text-decoration: underline;
-} */
-
-/* header nav ul li a {
-  color: #1A3263;
-} */
-
-/* header nav ul li a:hover {
-  color: white;
-} */
 
 .banner {
     position: relative;
