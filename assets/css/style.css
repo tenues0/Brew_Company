@@ -70,7 +70,7 @@ li {
     position: absolute;
     bottom: 16px;
     right: 32px;
-    font-size: 40px;
+    font-size: 32px;
     background-color: #FAB95B;
     padding: 5px;
     color: #1A3263;
@@ -79,7 +79,7 @@ li {
 
 .content-sections {
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 20px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #F16821;
